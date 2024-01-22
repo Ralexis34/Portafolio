@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'LETRA'; /* Nombre que asignarás al tipo de letra */
+  src: url('Outfit-VariableFont_wght.ttf') format('truetype'); /* Ruta al archivo TTF */
+  /* Agrega más formatos si tienes versiones adicionales del tipo de letra */
+}
+
+*{
+	box-sizing:border-box;
+  font-family: 'LETRA', sans-serif;
+}
+
+body {
+    font-family: 'LETRA', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(65 94 129);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(88 164 255 / 38%);
+  }
+
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffcc00; /* Cambia el color al pasar el ratón */
+  }
+
+  /*Acerca de mí*/
+  .container {
+    display: flex;
+  }
+  
+  .image-section,
+  .text-section {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .image-section img {
+    max-width: 42%;
+    border-radius: 15px;
+    border: solid 4px #333;
+    height: auto;
+  }
+
+  #habilidades{
+    background-color: rgb(65 94 129);
+    color: #fff;
+  }
+
+  #contacto{
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #conocimientos{
+    background-color: #fff;
+    color: black;
+    padding: 2%;
+    border-radius: 10px;
+  }
+  /*Galeria de imagenes*/
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .image-container {
+    width: 10%; /* Ajusta según sea necesario para evitar desbordamientos */
+    margin-bottom: 2px;
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 40%;
+  }
+  
+  .image-container p {
+    margin-top: 10px;
+  }
+
+  /*carrusel*/
+
+  #miCarrusel{
+    max-width: 600px; /* Ajusta el tamaño máximo según sea necesario */
+    margin: auto; /* Centra el carrusel horizontalmente */
+    padding-bottom: 3%;
+  }
+
+  /*Imagenes Banners*/
+  .image-row2 {
+    display: flex;
+  }
+
+  .image-container2 {
+    flex: 1; /* Divide el espacio disponible en 3 partes iguales */
+    margin: 3%; /* Añade un pequeño margen entre las imágenes */
+  }
+
+  .image-container2 img {
+    width: 100%; /* Las imágenes ocupan el ancho completo del contenedor */
+    height: auto;
+    border: 1px solid #ddd; /* Añade un borde para separar las imágenes */
+    border-radius: 8px; /* Añade esquinas redondeadas */
+  }
+
+/* Estilo adicional para los íconos de redes sociales */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.social-icon {
+  width: 50px; /* Ajusta el tamaño según tus íconos */
+  height: 50px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-icon img {
+  width: 80%; /* Ajusta el tamaño de la imagen dentro del ícono */
+  height: auto;
+}
+
+.social-icon:hover {
+  width: 55px;
+  height: 55px;
+}
+
+.Redes{
+  text-align: center;
+  margin-top: auto;
+}
+  
